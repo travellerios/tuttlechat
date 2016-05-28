@@ -7,31 +7,53 @@
 //
 
 #import "SplashSreenViewController.h"
+#import "LoginViewController.h"
 
 @interface SplashSreenViewController ()
+{
+    NSTimer * timer;
+    float progress;
+    IBOutlet UIProgressView *progressBar;
+    IBOutlet UIImageView *image;
+}
 
 @end
 
 @implementation SplashSreenViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBarHidden=YES;
+    progress = 0 ;
+    timer = [NSTimer scheduledTimerWithTimeInterval: 0.2
+                                             target:self
+                                           selector:@selector(targetMethod)
+                                           userInfo:nil
+                                            repeats:YES];
+    progressBar.layer.cornerRadius=7;
+    progressBar.clipsToBounds=YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    }
+-(void)targetMethod{
+    progress =progress + 0.1;
+    if (progress>=1.0) {
+        [timer invalidate];
+        [self pushLoginView];
+    }else{
+        progressBar.progress = progress;
+    }
 }
 
+-(void)pushLoginView{
+    
+        LoginViewController * loginVC =[self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+        [self.navigationController pushViewController:loginVC animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TextFieldValidator.h"
+
+
 
 @interface LoginViewController : UIViewController
+{
+    IBOutlet TextFieldValidator *userNameTextField;
+  IBOutlet TextFieldValidator *txtPass;
+   IBOutlet TextFieldValidator *txtEmail;
+}
+@property (strong, nonatomic) IBOutlet UIButton *forgetPass;
+@property (strong, nonatomic) IBOutlet UIButton *signupclick;
 
 @end

@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		39364DCD1CF58A5900B5B674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39364DCC1CF58A5900B5B674 /* main.m */; };
 		39364DD01CF58A5900B5B674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39364DCF1CF58A5900B5B674 /* AppDelegate.m */; };
-		39364DD31CF58A5900B5B674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39364DD21CF58A5900B5B674 /* ViewController.m */; };
-		39364DD61CF58A5900B5B674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39364DD41CF58A5900B5B674 /* Main.storyboard */; };
 		39364DD81CF58A5900B5B674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39364DD71CF58A5900B5B674 /* Assets.xcassets */; };
 		39364DDB1CF58A5900B5B674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39364DD91CF58A5900B5B674 /* LaunchScreen.storyboard */; };
+		39364DE81CF58F6900B5B674 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39364DE71CF58F6900B5B674 /* LoginViewController.m */; };
+		39364DEF1CF5917100B5B674 /* Turtle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39364DEE1CF5917100B5B674 /* Turtle.storyboard */; };
+		39364DF31CF5CE8200B5B674 /* SplashSreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39364DF21CF5CE8200B5B674 /* SplashSreenViewController.m */; };
+		396A045D1CF7261D007AE431 /* signupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396A045C1CF7261D007AE431 /* signupViewController.m */; };
+		396A04601CF7262E007AE431 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396A045F1CF7262E007AE431 /* ForgetViewController.m */; };
+		39A9AEF41CF987950008EA9B /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A9AEF31CF987950008EA9B /* TextFieldValidator.m */; };
+		9FC7E443317CE3749921E00C /* libPods-turtle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 065C99711BF3CE754431E0FE /* libPods-turtle.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065C99711BF3CE754431E0FE /* libPods-turtle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-turtle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39364DC81CF58A5800B5B674 /* turtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39364DCC1CF58A5900B5B674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39364DCE1CF58A5900B5B674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39364DCF1CF58A5900B5B674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		39364DD11CF58A5900B5B674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39364DD21CF58A5900B5B674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		39364DD51CF58A5900B5B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39364DD71CF58A5900B5B674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39364DDA1CF58A5900B5B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39364DDC1CF58A5900B5B674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39364DE61CF58F6900B5B674 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		39364DE71CF58F6900B5B674 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		39364DEE1CF5917100B5B674 /* Turtle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Turtle.storyboard; sourceTree = "<group>"; };
+		39364DF11CF5CE8200B5B674 /* SplashSreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSreenViewController.h; sourceTree = "<group>"; };
+		39364DF21CF5CE8200B5B674 /* SplashSreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashSreenViewController.m; sourceTree = "<group>"; };
+		396A045B1CF7261D007AE431 /* signupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signupViewController.h; sourceTree = "<group>"; };
+		396A045C1CF7261D007AE431 /* signupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signupViewController.m; sourceTree = "<group>"; };
+		396A045E1CF7262E007AE431 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		396A045F1CF7262E007AE431 /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		39A9AEF21CF987950008EA9B /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldValidator.h; path = ../turtle/TextFieldValidator.h; sourceTree = "<group>"; };
+		39A9AEF31CF987950008EA9B /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFieldValidator.m; path = ../turtle/TextFieldValidator.m; sourceTree = "<group>"; };
+		917F652210907328165461A7 /* Pods-turtle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turtle.release.xcconfig"; path = "Pods/Target Support Files/Pods-turtle/Pods-turtle.release.xcconfig"; sourceTree = "<group>"; };
+		B3094212E129DA2F59E95434 /* Pods-turtle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turtle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-turtle/Pods-turtle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC7E443317CE3749921E00C /* libPods-turtle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35A5943A2E55F47D23A96E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				065C99711BF3CE754431E0FE /* libPods-turtle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35C5A758C1DFFFFD754E02F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3094212E129DA2F59E95434 /* Pods-turtle.debug.xcconfig */,
+				917F652210907328165461A7 /* Pods-turtle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		39364DBF1CF58A5800B5B674 = {
 			isa = PBXGroup;
 			children = (
 				39364DCA1CF58A5900B5B674 /* turtle */,
 				39364DC91CF58A5800B5B674 /* Products */,
+				35C5A758C1DFFFFD754E02F5 /* Pods */,
+				35A5943A2E55F47D23A96E92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +94,10 @@
 		39364DCA1CF58A5900B5B674 /* turtle */ = {
 			isa = PBXGroup;
 			children = (
-				39364DCE1CF58A5900B5B674 /* AppDelegate.h */,
-				39364DCF1CF58A5900B5B674 /* AppDelegate.m */,
-				39364DD11CF58A5900B5B674 /* ViewController.h */,
-				39364DD21CF58A5900B5B674 /* ViewController.m */,
-				39364DD41CF58A5900B5B674 /* Main.storyboard */,
-				39364DD71CF58A5900B5B674 /* Assets.xcassets */,
-				39364DD91CF58A5900B5B674 /* LaunchScreen.storyboard */,
-				39364DDC1CF58A5900B5B674 /* Info.plist */,
+				39364DEA1CF5908B00B5B674 /* Categoreis */,
+				39364DE91CF5907D00B5B674 /* ConstantFiles */,
+				39364DE31CF58CF600B5B674 /* interfaces */,
+				39364DE21CF58C7000B5B674 /* viewcontroller */,
 				39364DCB1CF58A5900B5B674 /* Supporting Files */,
 			);
 			path = turtle;
@@ -74,9 +106,127 @@
 		39364DCB1CF58A5900B5B674 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39A9AEF01CF987820008EA9B /* textFieldValidator */,
+				39364DDC1CF58A5900B5B674 /* Info.plist */,
+				39364DD71CF58A5900B5B674 /* Assets.xcassets */,
 				39364DCC1CF58A5900B5B674 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39364DE21CF58C7000B5B674 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				396A045A1CF725F6007AE431 /* signupVC */,
+				396A04591CF725EC007AE431 /* forgetPass */,
+				39364DF01CF5CE4D00B5B674 /* splashScreen */,
+				39364DE51CF58EC900B5B674 /* LoginSceen */,
+				39364DE41CF58E6800B5B674 /* AppDelegate */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		39364DE31CF58CF600B5B674 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				39364DD91CF58A5900B5B674 /* LaunchScreen.storyboard */,
+				39364DEE1CF5917100B5B674 /* Turtle.storyboard */,
+			);
+			name = interfaces;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		39364DE41CF58E6800B5B674 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				39364DCE1CF58A5900B5B674 /* AppDelegate.h */,
+				39364DCF1CF58A5900B5B674 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		39364DE51CF58EC900B5B674 /* LoginSceen */ = {
+			isa = PBXGroup;
+			children = (
+				39364DE61CF58F6900B5B674 /* LoginViewController.h */,
+				39364DE71CF58F6900B5B674 /* LoginViewController.m */,
+			);
+			name = LoginSceen;
+			sourceTree = "<group>";
+		};
+		39364DE91CF5907D00B5B674 /* ConstantFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ConstantFiles;
+			sourceTree = "<group>";
+		};
+		39364DEA1CF5908B00B5B674 /* Categoreis */ = {
+			isa = PBXGroup;
+			children = (
+				39364DED1CF590F000B5B674 /* TextFieldPadding */,
+				39364DEC1CF590E500B5B674 /* storybord */,
+				39364DEB1CF590D700B5B674 /* WebHandler */,
+			);
+			name = Categoreis;
+			sourceTree = "<group>";
+		};
+		39364DEB1CF590D700B5B674 /* WebHandler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebHandler;
+			sourceTree = "<group>";
+		};
+		39364DEC1CF590E500B5B674 /* storybord */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = storybord;
+			sourceTree = "<group>";
+		};
+		39364DED1CF590F000B5B674 /* TextFieldPadding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TextFieldPadding;
+			sourceTree = "<group>";
+		};
+		39364DF01CF5CE4D00B5B674 /* splashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				39364DF11CF5CE8200B5B674 /* SplashSreenViewController.h */,
+				39364DF21CF5CE8200B5B674 /* SplashSreenViewController.m */,
+			);
+			name = splashScreen;
+			sourceTree = "<group>";
+		};
+		396A04591CF725EC007AE431 /* forgetPass */ = {
+			isa = PBXGroup;
+			children = (
+				396A045E1CF7262E007AE431 /* ForgetViewController.h */,
+				396A045F1CF7262E007AE431 /* ForgetViewController.m */,
+			);
+			name = forgetPass;
+			sourceTree = "<group>";
+		};
+		396A045A1CF725F6007AE431 /* signupVC */ = {
+			isa = PBXGroup;
+			children = (
+				396A045B1CF7261D007AE431 /* signupViewController.h */,
+				396A045C1CF7261D007AE431 /* signupViewController.m */,
+			);
+			name = signupVC;
+			sourceTree = "<group>";
+		};
+		39A9AEF01CF987820008EA9B /* textFieldValidator */ = {
+			isa = PBXGroup;
+			children = (
+				39A9AEF21CF987950008EA9B /* TextFieldValidator.h */,
+				39A9AEF31CF987950008EA9B /* TextFieldValidator.m */,
+			);
+			name = textFieldValidator;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39364DDF1CF58A5900B5B674 /* Build configuration list for PBXNativeTarget "turtle" */;
 			buildPhases = (
+				A581AC456F46627490C5C7C5 /* 📦 Check Pods Manifest.lock */,
 				39364DC41CF58A5800B5B674 /* Sources */,
 				39364DC51CF58A5800B5B674 /* Frameworks */,
 				39364DC61CF58A5800B5B674 /* Resources */,
+				BFC0D03CDFE05255A6B33A72 /* 📦 Embed Pods Frameworks */,
+				6366509F0AB078B1E4B1F03E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +263,7 @@
 				TargetAttributes = {
 					39364DC71CF58A5800B5B674 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4BGR2HUY6V;
 					};
 				};
 			};
@@ -136,42 +290,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39364DEF1CF5917100B5B674 /* Turtle.storyboard in Resources */,
 				39364DDB1CF58A5900B5B674 /* LaunchScreen.storyboard in Resources */,
 				39364DD81CF58A5900B5B674 /* Assets.xcassets in Resources */,
-				39364DD61CF58A5900B5B674 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6366509F0AB078B1E4B1F03E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-turtle/Pods-turtle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A581AC456F46627490C5C7C5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC0D03CDFE05255A6B33A72 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-turtle/Pods-turtle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39364DC41CF58A5800B5B674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39364DD31CF58A5900B5B674 /* ViewController.m in Sources */,
 				39364DD01CF58A5900B5B674 /* AppDelegate.m in Sources */,
+				396A04601CF7262E007AE431 /* ForgetViewController.m in Sources */,
+				39364DF31CF5CE8200B5B674 /* SplashSreenViewController.m in Sources */,
 				39364DCD1CF58A5900B5B674 /* main.m in Sources */,
+				396A045D1CF7261D007AE431 /* signupViewController.m in Sources */,
+				39A9AEF41CF987950008EA9B /* TextFieldValidator.m in Sources */,
+				39364DE81CF58F6900B5B674 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39364DD41CF58A5900B5B674 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39364DD51CF58A5900B5B674 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39364DD91CF58A5900B5B674 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				39364DDA1CF58A5900B5B674 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = turtle;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -195,6 +394,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -240,6 +440,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -263,22 +464,26 @@
 		};
 		39364DE01CF58A5900B5B674 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3094212E129DA2F59E95434 /* Pods-turtle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				INFOPLIST_FILE = turtle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = turtle.turtle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.turtle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		39364DE11CF58A5900B5B674 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917F652210907328165461A7 /* Pods-turtle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pradip Solanke (4BGR2HUY6V)";
 				INFOPLIST_FILE = turtle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = turtle.turtle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.turtle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,6 +507,7 @@
 				39364DE11CF58A5900B5B674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
