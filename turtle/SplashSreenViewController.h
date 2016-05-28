@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SplashSreenViewController.h
 //  turtle
 //
 //  Created by Sandip Jadhav on 25/05/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SplashSreenViewController : UIViewController
 
 @end
-
